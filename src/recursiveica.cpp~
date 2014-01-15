@@ -1,0 +1,9 @@
+#include "sys_lib.h"
+#include "recursive_ica.h"
+
+int main(void)
+{
+  Mat frame;
+  cout << "hello" << endl;
+  return 0;
+}

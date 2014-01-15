@@ -1,0 +1,2 @@
+/usr/bin/ar cr lib/libicalib.so.a  
+/usr/bin/ranlib lib/libicalib.so.a

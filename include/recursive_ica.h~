@@ -1,0 +1,51 @@
+#include "sys_lib.h"
+
+// write a class for the function
+
+class RecursiveICA{
+
+ private :
+
+  int dataRows;
+  int dataCols;
+  double lmdinit;
+
+ public :
+
+  RecursiveICA(double lmdinitpara)
+    {
+      lmdinit=lmdinitpara;
+    }
+
+
+  void getDataRows(cv::Mat data, int &size)
+  {
+    size=data.rows;
+  }
+
+  void getDataCols(cv::Mat data, int & size)
+  {
+    size=data.cols;
+  }
+
+  void recursiveICA(cv::Mat datargb, cv::Mat & weights)
+  {
+    getDataRows(datargb, dataRows);
+    getDataCols(datargb, dataCols);
+
+    int iterate_num=0;
+
+    cv::Mat y;
+    for (int i=1;i<=dataCols;i++)
+      {
+	iterate_num++;
+	
+	y=weights*datargb.col(i);
+
+	double nonlin=tanh(i);
+	
+      }
+    
+  }
+
+};
