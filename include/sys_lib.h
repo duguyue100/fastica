@@ -1,3 +1,6 @@
+// Author: Hu Yuhuang (ARLAB)
+// Data: 20140114
+// Contact: duguyue100@gmail.com
 
 // SYSTEM LIBRARIES //
 
