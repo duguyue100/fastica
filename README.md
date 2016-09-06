@@ -1,6 +1,8 @@
 Fast Independent Component Analysis in C/C++
 =======
 
+__ATTENTION: THIS PACKAGE IS NOT FUNCTIONING, IT'S HERE ONLY FOR ARCHIVE PURPOSE FOR MYSELF!!!__
+
 ##Introduction##
 
 This is a C/C++ implementation of Fast Independent Component Analysis (ICA) and Recursive ICA.
